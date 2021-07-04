@@ -3,18 +3,54 @@ body{
     margin: 0;
 }
 h1{ 
-    font-size:50px;    
+    font-size:50px;   
+    margin-left: 50px; 
 }
+.h1-experiance{
+    margin-left: 90px;
+}
+h2{ 
+    font-size:40px;    
+}
+
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     width:50%;
     padding-left: 2%;
+
+}
+.experience-area{
+    background-image: url(../developer-portfolio/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+/*Box Shadow*/
+.experiance-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  gray;
+    border-left: 10px solid orangered;
+    /*text-align: justify;*/
+    
+}
+#web-dev-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
 }
 .half-width img{
     width: 90%;
@@ -35,4 +71,37 @@ section{
     background-image: url(../developer-portfolio/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+/*
+blog session Css
+*/
+.blog{
+    background-color: rgb(205, 206, 198);
+    border: 5px solid yellow;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 30px;
+  /*  padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;    */
+}
+.blog p{
+    color: rgb(168, 2, 160);
+    text-align: justify;
+    font-weight: 900;
+}
+.blog-title{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.author-name{
+   color: rgba(10, 88, 233, 0.692);
+}
+footer p{
+    text-align: center;
 }
